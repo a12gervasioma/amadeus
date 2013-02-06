@@ -1,0 +1,5 @@
+RewriteEngine on
+#DirectoryIndex inicio.html
+Options -Indexes
+
+RewriteRule ^(.*).html$ controlador.php?inc=$1
